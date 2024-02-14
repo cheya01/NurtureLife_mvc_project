@@ -1,0 +1,84 @@
+body{
+    font-family: monospace;
+}
+.table_container{
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #ffb3b3;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+th, td {
+    border: 2px solid #020289;
+    text-align: center;
+    padding: 8px;
+    margin: 20px;
+    width: 8.3%;
+    max-width: 50px;
+    overflow: hidden;
+}
+th {
+    background-color: #ea9e9e;
+}
+.add_new_clinic{
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #ffb3b3;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.edit_clinic{
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #ffce00;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.edit_clinic img{
+    width: 20px;
+    margin:5px;
+}
+.delete_clinic{
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #ffce00;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.delete_clinic img{
+    width: 20px;
+    margin:5px;
+}
+.add_clinic_form_container{
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #ffb3b3;
+    border: 1px solid #ffb3b3;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.add_clinic_form_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.add_clinic_form_container input{
+
+}
+

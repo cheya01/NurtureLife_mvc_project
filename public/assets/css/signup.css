@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    background-image: url("../images/motherbackground.png");
+    background-size: contain;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    width: 500px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.signup_form_container{
+    margin-left: 50px;
+}

@@ -1,0 +1,51 @@
+.user_details_container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #159EEC;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.edit_profile_container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #159EEC;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+.edit_profile_row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.edit_profile_row img{
+    width: 50px;
+}
+.edit_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.save_button{
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+    width: 100%;
+    background-color: green;
+    border: solid white 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.back_button{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: #65b0f9;
+    border: solid white 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
